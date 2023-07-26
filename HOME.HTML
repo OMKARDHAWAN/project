@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           <title>ELECTRONICSHOP.COM</title></head>
+        <link rel="stylesheet" type="text/css" a href="HOME.CSS"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    <body class="main"> 
+        <div class="navigation">
+            <input type="checkbox" id="check">
+            <div class="logo">
+                ELECTRONICSHOP.COM
+            </div>
+            <div id="searchbar">
+                <input type="search" placeholder="TYPE HERE..." class="BAR"/>
+           <button id="search">SEARCH</button>
+            </div>
+           <nav>
+            <ul id="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SETTING</a>
+                <ul>
+                    <li><a href="#">PROFILE</a></li>
+                    <li><a href="#">LANG</a></li>
+                    <li><a href="#">VSETTING</a></li>
+                </ul>
+                </li>
+                <li><a href="#">ABOUT US</a>
+                </li>
+                <li><a href="#">CONTACT US</a></li>
+                
+            </ul>
+           </nav>
+           <div id="navbutton">
+           <button class="login" onclick="visible('#lsbox','flex')">LOGIN</button>
+           <button class="sign" onclick="show('#sgbox','flex')" >SIGN UP</button>
+           </div>
+        </div>
+        <div id="content">
+            <div id="lsbox">
+        
+            <form id="form">
+                <div><h2>LOGIN</h2></div>
+                <div id="uname">
+                    <input type="text" placeholder="ENTER YOUR NAME" class="LNAME">
+                    <label class="label">USERNAME</label>
+                </div>
+                <div id="passw">
+                    <input type="text" placeholder="ENTER YOUR NAME" class="LNAME">
+                    <label class="label">PASSWORD</label>
+                </div>
+                <a href="#">FORGOT PASSWORD?</a>
+                <div>
+                    <button type="button" id="loginb" >LOG IN</button>
+                </div>
+            </form>
+
+            </div>
+
+            <div id="sgbox" >
+                <form id="sform">
+                    <h1>SIGN UP</h1>
+                    <div id="div1">
+                        <input type="text" class="USERNAME">
+                        <label class="Label">FULL NAME</label>
+                    </div>
+                    <div id="div2">
+                        <input type="text" class="USERNAME">
+                        <label class="Label">MOBILE NO.</label>
+                    </div>
+                    <div id="div3">
+                        <input type="text" class="USERNAME" >
+                        <label class="Label">USERNAME</label>
+                    </div>
+                    <div id="div4">
+                        <input type="text" class="USERNAME">
+                        <label class="Label">PASSWoRD</label>
+                    </div>
+                    <div id="div5">
+                        <input type="text" class="USERNAME">
+                        <label class="Label">Email id</label>
+                    </div>
+                    <div >
+                        <button id="SIGNUP">SIGN UP</button>
+                    </div>
+                </form>
+            </div>
+          
+        </div>
+     
+
+ 
+    
+    </body>
+    <footer id="footer"> 
+        
+    </footer>
+    <script src="HOME.JS"></script>
+</html>
